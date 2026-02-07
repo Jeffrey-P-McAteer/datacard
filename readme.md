@@ -22,18 +22,23 @@ This allows us to infer the properties of an ideal data processing system:
 ```
 +--------------------------------------------
 |
+|           Table view w/ 2 options:
+|      Tabs of tables || Nodes of tables w/ links between
+|                        them describing derived/calculated fields
 |
 |
 |
-|
-|
-|
-|
-|
+|-------------------------------------------
+|               Terminal; tabs? Tabs.
 |
 +-------------------------------------------
 ````
 
+Whole window pop-ups:
+
+ - Create new Table view
+    - select a table from any database w/ offer to attempt creation of new one given schema (sqlite, postgres, sqlserver, mysql, mariadb)
+ -
 
 
 # Development Setup
