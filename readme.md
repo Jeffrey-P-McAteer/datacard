@@ -43,14 +43,19 @@ Whole window pop-ups:
 
 # Development Setup
 
-Step 1: Install python.
+Step 1: Install Zig.
 
 Step 2: Have an internet connection.
 
 Step 3:
 
 ```bash
-python -m build
+zig build
+
+zig build dist
+
+# Etc etc, zig will download other required toolchains as needed.
+
 ```
 
 
